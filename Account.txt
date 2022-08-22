@@ -1,0 +1,79 @@
+import java.util.*;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Account account1 = new Account(4536, 50000, .05);
+        account1.withdraw(1500);
+        account1.deposit(4000);
+        System.out.println("Date Created:" + dateCreated);
+        System.out.println("Account ID:" + account1.id);
+        System.out.println("Balance:" + account1.getBalance());
+        System.out.println("Interest Rate:" + account1.getAnnualInterestRate());
+        
+        
+    }
+    class Account{
+        private int id;
+        private double balance;
+        private double annualInterestRate;
+        private java.util.Date dateCreated;
+        
+        Account()
+        {
+            id=0;
+            balance=0.0;
+            annualInterest=0.0;
+        }
+        Account(int newId,double newBalance)
+        {
+            id=newId;
+            balance=newBalance;
+        }
+        Account(int newId,double newBalance,double newAnnualInterestRate)
+        {
+            id=newId;
+            balance=Newbalance;
+            annualInterest=newAnnualInterestRate;
+        }
+    public int getId()
+    {
+        return id;
+    }
+    public double getBalance()
+    {
+        return getBalance;
+    }
+     public double annualInterestRate()
+     {
+         return annualInaterestRate;
+     }
+     public void setid(int newid)
+     {
+         id=newid;
+     }
+     public void setBalance(double newBalance)
+     {
+         balance=newBalance;
+     }
+     public void setAnnualInterestRate(double newAnnualInterestRate)
+     {
+         annualInterestRate=newAnnualInterestRate;
+     }
+     public void setDateCreated(date newDateCreated)
+     {
+         dateCreated=newDateCreated;
+     }
+     double getMontyhlyInterest()
+     {
+         return annualInterest/12;
+     }
+     double withdraw(double amount)
+     {
+         return balance-=amount;
+     }
+     double deposit(double amount)
+     {
+         return balance+=amount;
+     }
+    }
+}
