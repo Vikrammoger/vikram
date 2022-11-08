@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+
 @Service
 public class AdminServiceImpl implements AdminService {
     @Override
@@ -83,7 +84,8 @@ public class AdminServiceImpl implements AdminService {
     }
 
     @Override
-    public List<User> findAllUsers(int sId) {
+    public List<User> findAllVoters(int sId) {
         return null;
     }
+
 }
