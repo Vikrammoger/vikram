@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework:spring-jcl:6.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/6.0.0-SNAPSHOT/spring-jcl-6.0.0-20221108.195436-1084.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/6.0.0-SNAPSHOT/spring-jcl-6.0.0-20221108.195436-1084-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/6.0.0-SNAPSHOT/spring-jcl-6.0.0-20221108.195436-1084-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -12,7 +12,7 @@ import java.sql.Timestamp;
 public class Election {
    private String electionName;
    private Timestamp startDateAndTime;
-    private Timestamp endDateAndTime;
+   private Timestamp endDateAndTime;
 
 
 }

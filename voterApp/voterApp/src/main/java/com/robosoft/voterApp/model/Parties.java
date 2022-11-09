@@ -13,8 +13,6 @@ public class Parties {
     private MultipartFile logo;
     private String logoUrl;
     private int candidateId;
-    private String gender;
-    private int age;
     private int wardNumber;
     private String voterId;
 
